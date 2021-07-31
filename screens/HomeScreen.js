@@ -23,7 +23,7 @@ export default class HomeScreen extends Component{
     }
 
     getMovie = () => {
-        const url = "http://9d30cff53bc5.ngrok.io/get-movie";
+        const url = "http://6d65bcb8d345.ngrok.io/get-movie";
         axios
         .get(url)
         .then(response => {
@@ -39,7 +39,7 @@ export default class HomeScreen extends Component{
     };
 
     likedMovie = () => {
-        const url = "http://9d30cff53bc5.ngrok.io/liked-movie";
+        const url = "http://6d65bcb8d345.ngrok.io/liked-movie";
         axios
         .post(url)
         .then(response => {
@@ -51,7 +51,7 @@ export default class HomeScreen extends Component{
     };
 
     unlikedMovie = () => {
-        const url = "http://9d30cff53bc5.ngrok.io/unliked-movie";
+        const url = "http://6d65bcb8d345.ngrok.io/unliked-movie";
         axios
         .post(url)
         .then(response => {
@@ -63,7 +63,7 @@ export default class HomeScreen extends Component{
     }
 
     notWatched = () => {
-        const url = "http://9d30cff53bc5.ngrok.io/did-not-watch";
+        const url = "http://6d65bcb8d345.ngrok.io/did-not-watch";
         axios
         .post(url)
         .then(response => {
